@@ -3,31 +3,19 @@ title: TITLED
 date: 2023-06-27 17:00:00 +0800
 categories: [Language, CSharp]
 tags: [c#]     # TAG names should always be lowercase
----
 
----
 <author_id>:
   name: klccc
   url: YourKlc.github.io
----
 
----
 toc: true
----
 
----
 comments: false
----
 
----
 math: false
----
 
----
 mermaid: true
----
 
----
 pin: true
 ---
 
