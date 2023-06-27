@@ -13,12 +13,12 @@ baseurl: ""
 lang: zh-CN
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: KBlog # the main title
 
 tagline: A text-focused Jekyll theme # it will display as the sub-title
 
@@ -29,10 +29,10 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: github_username # change to your github username
+  username: YourKlc # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: null # change to your twitter username
 
 social:
   # Change to your full name.
@@ -70,7 +70,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|dark]
+theme_mode: # [dark|light]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
