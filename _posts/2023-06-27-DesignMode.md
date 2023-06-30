@@ -14,7 +14,6 @@ mermaid: true #mermaid是否开启.
 
 pin: true #是否置顶
 
-whitespace: 4
 #![img-description](/path/to/image)
 #_Image Caption_ 图片的说明
 
@@ -25,56 +24,56 @@ whitespace: 4
 
 ---
 
-
-
+#分别是普通的单例类以及继承自MonoBehaviour的单例
 
 ``` c#
 public abstract class SingletonN<T> where T : class, new()
 {
-	private static T ins = null;
-	private static readonly object locker = new object();
-	public static T Ins
-	{
-		get
-		{
-			if (ins == null)
-			{
-				lock (locker)
-				{
-					if (ins == null)
-					{
-						ins = new T();
-					}
-				}
-			}
-			return ins;
-		}
-	}
+    private static T ins = null;
+    private static readonly object locker = new object();
+    public static T Ins
+    {   
+        get
+        {
+            if (ins == null)
+            {
+                lock (locker)
+                {
+                    if (ins == null)
+                    {
+                        ins = new T();
+                    }
+                }
+            }
+            return ins;
+        }
+    }
 } 
+
 public class SingletonM<T> : MonoBehaviour where T : SingletonM<T>
 {
-	private static T ins;
-	public static T Ins
-	{
-		get
-		{
-			if (ins != null) return ins;
+    private static T ins;
+    public static T Ins
+    {
+        get
+        {
+            if (ins != null) return ins;
 
-			ins = FindObjectOfType<T>();
-			if (ins == null)
-			{
-				new GameObject("Singleton of " + typeof(T)).AddComponent<T>();
-			}
-			else ins.Ini();
-			return ins;
-		}
-	}
-	private void Awake()
-	{
-		ins = this as T;
-		Ini();
-	}
-	protected virtual void Ini() { }
+            ins = FindObjectOfType<T>();
+            if (ins == null)
+            {
+                new GameObject("Singleton of " + typeof(T)).AddComponent<T>();
+            }
+            else ins.Ini();
+            return ins;
+        }
+    }
+    private void Awake()
+    {
+        ins = this as T;
+        Ini();
+    }
+    protected virtual void Ini() { }
 }
 ```
 {: file="DesignMode" }
