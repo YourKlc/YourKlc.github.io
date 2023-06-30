@@ -10,10 +10,11 @@ comments: false #评论是否开启
 
 math: false #数学符号是否加载
 
-mermaid: true #mermaid是否开启
+mermaid: true #mermaid是否开启.
 
 pin: true #是否置顶
 
+whitespace: 4
 #![img-description](/path/to/image)
 #_Image Caption_ 图片的说明
 
@@ -24,7 +25,6 @@ pin: true #是否置顶
 
 ---
 
-`/path/to/a/file.extend`
 
 
 
