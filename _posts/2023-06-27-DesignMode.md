@@ -77,3 +77,8 @@ public class SingletonM<T> : MonoBehaviour where T : SingletonM<T>
 }
 ```
 {: file="DesignMode" }
+
+``` c#
+观察者模式, 待补充
+```
+{: file="DesignMode" }
