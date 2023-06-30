@@ -19,9 +19,12 @@ pin: true #是否置顶
 
 #![Desktop View](/assets/img/sample/mockup.png){: width="700" height="400" } 设置图片宽高
 
+#```
+#{: file="DesignMode" }   #设置代码块标题
+
 ---
 
-`/path/to/a/file.extend`{: .filepath}
+`/path/to/a/file.extend`
 
 
 
