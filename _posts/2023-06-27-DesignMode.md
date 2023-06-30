@@ -1,25 +1,29 @@
 ---
-title: TITLED
+title: C#设计模式
 date: 2023-06-27 17:00:00 +0800
-categories: [Language, CSharp]
+categories: [Language, CSharp] #一级目录, 二级目录
 tags: [c#]     # TAG names should always be lowercase
 
-<author_id>:
-  name: klccc
-  url: YourKlc.github.io
+toc: true #右侧内容位置是否显示, 默认值在_config.yml
 
-toc: true
+comments: false #评论是否开启
 
-comments: false
+math: false #数学符号是否加载
 
-math: false
+mermaid: true #mermaid是否开启
 
-mermaid: true
+pin: true #是否置顶
 
-pin: true
+#![img-description](/path/to/image)
+#_Image Caption_ 图片的说明
+
+#![Desktop View](/assets/img/sample/mockup.png){: width="700" height="400" } 设置图片宽高
+
 ---
 
 `/path/to/a/file.extend`{: .filepath}
+
+
 
 ``` c#
 public abstract class SingletonN<T> where T : class, new()
