@@ -24,7 +24,7 @@ pin: true #是否置顶
 
 ---
 
-#分别是普通的单例类以及继承自MonoBehaviour的单例
+# 分别是普通的单例类以及继承自MonoBehaviour的单例
 
 ``` c#
 public abstract class SingletonN<T> where T : class, new()
