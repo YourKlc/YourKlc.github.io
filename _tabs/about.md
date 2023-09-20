@@ -1,27 +1,7 @@
 ---
-title: 关于
-date: 2023-07-04 15:49:00 +0800
-categories: [] #一级目录, 二级目录
-tags: [document]    # TAG names should always be lowercase
-
-toc: true #右侧内容位置是否显示, 默认值在_config.yml
-
-comments: false #评论是否开启
-
-math: false #数学符号是否加载
-
-mermaid: true #mermaid是否开启.
-
-pin: true #是否置顶
-
-#![img-description](/path/to/image)
-#_Image Caption_ 图片的说明
-
-#![Desktop View](/assets/img/sample/mockup.png){: width="700" height="400" } 设置图片宽高
-
-#```
-#{: file="DesignMode" }   #设置代码块标题
-
+# the default layout is 'page'
+icon: fas fa-info-circle
+order: 4
 ---
 
 <style>
