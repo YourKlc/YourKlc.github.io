@@ -80,7 +80,7 @@ theme_mode: dark # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: assets/img/avatar/favicon-269x269.png # 头像
+avatar: assets/img/favicon-269x269.png # 头像
 
 # boolean type, the global switch for TOC in posts.
 toc: true
