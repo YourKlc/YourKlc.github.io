@@ -2,7 +2,7 @@
 title: C#设计模式
 date: 2023-06-27 17:00:00 +0800
 categories: [Language, CSharp] #一级目录, 二级目录
-tags: [c#]     # TAG names should always be lowercase
+tags: [CSharp]     # TAG names should always be lowercase
 
 toc: true #右侧内容位置是否显示, 默认值在_config.yml
 
