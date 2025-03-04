@@ -4,5 +4,7 @@
 			"path": "_posts"
 		}
     ],
-    "settings": {}
+	"settings": {
+		"markdown.validate.enabled": false
+	}
 }
